@@ -1,6 +1,9 @@
 # PySpark_flightDelays
 Basic queries in PySpark, using DataFrame created from CSV file.
 
+The code with comments is in the **flightDelays.py** file.
+
+
 The CSV file contains info about flight delays in USA airports. The columns are:
 - **date** of flight, that can be mapped to date format
  - **delay** of departue expressed in minutes
@@ -8,7 +11,6 @@ The CSV file contains info about flight delays in USA airports. The columns are:
  - **origin** airport, using IATA code
  - **destination** airport, using IATA code
 
-The code with comments is in the flightDelays.py file.
 
 File results.txt contains results returned in the terminal by the program submitted to Spark using command:
 
