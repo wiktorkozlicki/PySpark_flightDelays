@@ -10,7 +10,7 @@ The CSV file contains info about flight delays in USA airports. The columns are:
  - **distance** between airports
  - **origin** airport, using IATA code
  - **destination** airport, using IATA code
-
+The original file contains more than milion rows. I decided to upload sample file, with the same name, to show it's structure. If you use the PySpark program on CSV file provided in this repo, your results will vary.
 
 File results.txt contains results returned in the terminal by the program submitted to Spark using command:
 
